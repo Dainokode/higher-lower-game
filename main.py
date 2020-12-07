@@ -11,10 +11,6 @@ def random_account():
 
 def print_accounts(a, b):
     """prints accounts info"""
-    # test
-    print(a["follower_count"])
-    print(b["follower_count"])
-
     print(f"Compare A: {a['name']} a {a['description']} from {a['country']}")
     print(vs)
     print(f"Compare B: {b['name']} a {b['description']} from {b['country']}")
